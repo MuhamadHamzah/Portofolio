@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="icon website" href="/app/img/icon_port.png" />
+  </head>
+  <body>
+    <div class="portfolio-container">
+      <!-- Sidebar Navigation -->
+      <nav class="sidebar">
+        <div class="sidebar-header">
+          <div class="profile-pic">
+            <img src="/app/img/my-picture.jpg" alt="Profile Picture" />
+          </div>
+          <h2 class="name">Muhamad Hamzah</h2>
+          <p class="title"><span></span></p>
+        </div>
+        <ul class="nav-links">
+          <li class="active" data-page="home">
+            <a href="#home"><i class="fas fa-home"></i> <span>Home</span></a>
+          </li>
+          <li data-page="about">
+            <a href="#about"><i class="fas fa-user"></i> <span>About</span></a>
+          </li>
+          <li data-page="skills">
+            <a href="#skills"
+              ><i class="fas fa-code"></i> <span>Skills</span></a
+            >
+          </li>
+          <li data-page="projects">
+            <a href="#projects"
+              ><i class="fas fa-briefcase"></i> <span>Projects</span></a
+            >
+          </li>
+          <li data-page="contact">
+            <a href="#contact"
+              ><i class="fas fa-envelope"></i> <span>Contact</span></a
+            >
+          </li>
+        </ul>
+
+        <div class="social-links">
+          <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          <a
+            href="https://www.instagram.com/mhmdhmzza?igsh=bWx4aHVtcHRhanhu"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </nav>
+
+      <!-- Mobile Navigation Toggle -->
+      <div class="mobile-nav-toggle" id="bar">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <!-- Main Content Area -->
+      <main class="content">
+        <!-- Pages Container -->
+        <div class="pages-container">
+          <!-- Home Page -->
+          <section id="home" class="page active">
+            <div class="page-content">
+              <h1 class="welcome">
+                WELCOME TO
+                <br />
+                <span class="style"> MY PORTOFOLIO </span>
+              </h1>
+              <div class="cta-buttons">
+                <a href="#projects" class="btn lihat">View My Work</a>
+                <a href="#contact" class="btn kontak">Contact Me</a>
+              </div>
+            </div>
+          </section>
+
+          <!-- About Page -->
+          <section id="about" class="page">
+            <div class="page-content">
+              <h2 class="section-title">About Me</h2>
+              <div class="about-content">
+                <div class="about-image">
+                  <img src="/app/img/my-picture.jpg" alt="About Me" />
+                </div>
+                <div class="about-text">
+                  <p>Muhamad Hamzah - Web Developer</p>
+                  <p>
+                    I am Hamzah, a Web Developer with expertise in building
+                    modern, responsive, and interactive websites. With 1 year of
+                    experience, I have worked on various projects small
+                    websites.
+                  </p>
+                  <p>
+                    I am committed to writing clean and efficient code, creating
+                    responsive and attractive designs, and keeping up with the
+                    latest web trends and technologies.
+                  </p>
+                  <div class="personal-info">
+                    <div class="info-item">
+                      <span class="info-label">Name:</span>
+                      <span class="info-value">Muhamad Hamzah</span>
+                    </div>
+                    <div class="info-item">
+                      <span class="info-label">Email:</span>
+                      <span class="info-value">kotabarufc12@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                      <span class="info-label">Location:</span>
+                      <span class="info-value"
+                        >South Kalimantan, Indonesian</span
+                      >
+                    </div>
+                    <div class="info-item">
+                      <span class="info-label">Availability:</span>
+                      <span class="info-value">Freelance</span>
+                    </div>
+                  </div>
+                  <a
+                    href="https://drive.google.com/file/d/1CFRr0a_wQoSpPJT-xS3NNYPHHktLvRi_/view?usp=drivesdk"
+                    class="btn download-cv"
+                    >Download CV <i class="fas fa-download"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Skills Page -->
+          <section id="skills" class="page">
+            <div class="page-content">
+              <h2 class="section-title">My Skills</h2>
+              <div class="skills-container">
+                <div class="skills-category">
+                  <h3>Frontend Development</h3>
+                  <div class="skills-grid">
+                    <div class="skill-item">
+                      <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                      </div>
+                      <h4>HTML5</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                      </div>
+                      <h4>CSS3</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-icon"><i class="fab fa-js"></i></div>
+                      <h4>JavaScript</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-icon"><i class="fab fa-react"></i></div>
+                      <h4>React</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 10%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-category">
+                  <h3>Backend Development</h3>
+                  <div class="skills-grid">
+                    <div class="skill-item">
+                      <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                      </div>
+                      <h4>Node.js</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 10%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                      </div>
+                      <h4>MySql</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                      </div>
+                      <h4>Express</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 0%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-icon"><i class="fas fa-fire"></i></div>
+                      <h4>Firebase</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 0%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-category">
+                  <h3>Tools & Others</h3>
+                  <div class="skills-grid">
+                    <div class="skill-item">
+                      <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                      </div>
+                      <h4>Git</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                      <h4>Figma</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 20%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                      </div>
+                      <h4>Responsive Design</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                      </div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="skill-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                      </div>
+                      <h4>Performance</h4>
+                      <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Projects Page -->
+          <section id="projects" class="page">
+            <div class="page-content">
+              <h2 class="section-title">My Projects & Certificate</h2>
+              <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">
+                  App Development
+                </button>
+                <button class="filter-btn" data-filter="other">Other</button>
+              </div>
+              <div class="projects-grid">
+                <div class="project-item" data-category="web">
+                  <div class="project-img">
+                    <img
+                      src="/app/img/ForYou.png"
+                      alt="ForYou - Apps Website"
+                    />
+                  </div>
+                  <div class="project-info">
+                    <h3>ForYou - Apps Website</h3>
+                    <p>
+                      A fully responsive e-commerce platform built with
+                      JavaScript.
+                    </p>
+                    <div class="project-tags">
+                      <span>HTML5</span>
+                      <span>CSS3</span>
+                      <span>JavaScript</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- BUKA JIKA SUDAH ADA APLIKASI YANG DIBUAT !! -->
+
+                <!-- <div class="project-item" data-category="app">
+                  <div class="project-img">
+                    <img
+                      src="https://via.placeholder.com/600x400"
+                      alt="My Project"
+                    />
+                  </div>
+                  <div class="project-info">
+                    <h3>App</h3>
+                    <p>
+                      Deskripsinya
+                    </p>
+                    <div class="project-tags">
+                      <span>Bahasa pemrograman yg dipakai</span>
+                      <span>Bahasa pemrograman yg dipakai</span>
+                      <span>Bahasa pemrograman yg dipakai</span>
+                    </div>
+                  </div>
+                </div> -->
+
+                <div class="project-item" data-category="web">
+                  <div class="project-img">
+                    <img src="/app/img/portofolio.png" alt="Portofolio" />
+                  </div>
+                  <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                      A modern portfolio website with smooth animations and
+                      responsive design.
+                    </p>
+                    <div class="project-tags">
+                      <span>HTML5</span>
+                      <span>CSS3</span>
+                      <span>JavaScript</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-item" data-category="other">
+                  <div class="project-img">
+                    <img src="/app/img/sertif_c++.png" alt="Certificate" />
+                  </div>
+                  <div class="project-info">
+                    <a
+                      href="https://drive.google.com/file/d/1lwpqLjGkKDcDpJaNqzyVkxfct7Aj6g_O/view?usp=drivesdk"
+                    >
+                      <h3>Certificate - Memulai Pemrograman Dengan C</h3>
+                      <p>
+                        The "Starting Programming With C" certificate I got at
+                        dicoding.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Contact Page -->
+          <section id="contact" class="page">
+            <div class="page-content">
+              <h2 class="section-title">Contact Me</h2>
+              <div class="contact-container">
+                <div class="contact-info">
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <a href="https://maps.app.goo.gl/P7Q95JmYT3Q5BdAw9">
+                      <div class="contact-text">
+                        <h3>Location</h3>
+                        <p>South Kalimantan, Indonesian</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                      <h3>Email</h3>
+                      <p>kotabarufc12@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                      <h3>Phone</h3>
+                      <p>+62 852-504-4971</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-form">
+                  <form id="contactForm">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Subject"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Your Message"
+                        required
+                      ></textarea>
+                    </div>
+                    <button type="submit" class="btn kirim">
+                      Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
