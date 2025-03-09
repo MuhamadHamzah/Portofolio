@@ -41,9 +41,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: var(--text-color);
-  background-image: url(../img/bg.jpeg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background: linear-gradient(to right, #001f3f, #000000);
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -279,7 +277,6 @@ img {
   border-radius: 50%;
   background-color: var(--primary-color);
   color: white;
-  display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -339,14 +336,13 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: calc(100vh - 5rem);
-  width: 59rem;
+  min-height: calc(90vh - 5rem);
   text-align: center;
-  background-image: url(/app/img/bg_style.jpg);
-  background-repeat: no-repeat;
-  background-size: 59rem;
-  background-position-y: 1rem;
-  transform: translateY(0.5rem);
+  background-color: black;
+  margin: 2rem;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #007bff, #00d4ff);
+  border-image-slice: 55;
 }
 
 .welcome {
@@ -358,7 +354,9 @@ img {
 }
 
 .welcome .style {
-  color: rgb(189, 189, 255);
+  background: linear-gradient(to right, #007bff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .headline {
@@ -385,7 +383,6 @@ img {
   justify-content: center;
   gap: 1rem;
   margin-top: 2rem;
-  translate: 0px 150px;
 }
 
 .btn {
@@ -401,21 +398,23 @@ img {
 .btn.lihat {
   background-color: var(--primary-color);
   color: white;
-  transform: translateX(-285px);
 }
 
 .btn.kontak {
   background-color: var(--primary-color);
   color: white;
-  transform: translateX(285px);
 }
 
 .btn.lihat:hover {
-  background-color: var(--secondary-color);
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 30%;
 }
 
 .btn.kontak:hover {
-  background-color: var(--secondary-color);
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 30%;
 }
 
 .btn.small {
@@ -756,6 +755,10 @@ img {
     height: 60px;
   }
 
+  .mobile-nav-toggle {
+    display: flex;
+  }
+
   .name,
   .title {
     display: none;
@@ -773,11 +776,39 @@ img {
   .content {
     margin-left: var(--sidebar-collapsed-width);
   }
+
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar.active {
+    transform: translateX(0);
+    width: 250px;
+  }
+
+  .sidebar.active .name,
+  .sidebar.active .title,
+  .sidebar.active .nav-links li a span {
+    display: block;
+  }
+
+  .sidebar.active .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .sidebar.active .social-links {
+    flex-direction: row;
+  }
 }
 
 @media (max-width: 768px) {
   :root {
     --sidebar-width: 0;
+  }
+
+  .mobile-nav-toggle {
+    display: flex;
   }
 
   .sidebar {
