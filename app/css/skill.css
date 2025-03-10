@@ -1,17 +1,17 @@
 /* logo html */
-.skill-item:hover #html-skill {
+.skill-item #html-skill {
   font-size: 2rem;
   color: #e44d26;
   margin-bottom: 1rem;
 }
 
-.skill-item:hover #html .skill-level {
+.skill-item #html .skill-level {
   height: 100%;
   background-color: #e44d26;
   border-radius: 4px;
 }
 
-#html-item:hover {
+#html-item {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -21,17 +21,17 @@
   border: 1px solid #e44d26;
 }
 
-.skill-item:hover h4 {
+.skill-item h4 {
   margin-bottom: 1rem;
   color: #bdb7b7;
 }
 
 /* logo css */
-#css-skill:hover i {
+#css-skill i {
   opacity: 0;
 }
 
-#css-skill:hover::after {
+#css-skill::after {
   content: "";
   background-image: url("../img/css.png");
   background-size: cover;
@@ -44,13 +44,13 @@
   transform: translateY(-110px) translateX(-5px);
 }
 
-.skill-item:hover #css-bar .skill-level {
+.skill-item #css-bar .skill-level {
   height: 100%;
   background-color: #1572b6;
   border-radius: 4px;
 }
 
-#css-skill:hover {
+#css-skill {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -61,11 +61,11 @@
 }
 
 /* logo js */
-#js-skill:hover i {
+#js-skill i {
   opacity: 0;
 }
 
-#js-skill:hover::after {
+#js-skill::after {
   content: "";
   background-image: url("../img/js.png");
   background-size: cover;
@@ -78,13 +78,13 @@
   transform: translateY(-110px) translateX(-5px);
 }
 
-.skill-item:hover #js-bar .skill-level {
+.skill-item #js-bar .skill-level {
   height: 100%;
   background-color: #f7df1e;
   border-radius: 4px;
 }
 
-#js-skill:hover {
+#js-skill {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -95,19 +95,19 @@
 }
 
 /* logo react */
-.skill-item:hover #react-skill {
+.skill-item #react-skill {
   font-size: 2rem;
   color: #61dafb;
   margin-bottom: 1rem;
 }
 
-.skill-item:hover #react-bar .skill-level {
+.skill-item #react-bar .skill-level {
   height: 100%;
   background-color: #61dafb;
   border-radius: 4px;
 }
 
-#react-item:hover {
+#react-item {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -118,19 +118,19 @@
 }
 
 /* logo node js */
-.skill-item:hover #node-skill {
+.skill-item #node-skill {
   font-size: 2rem;
   color: #68a063;
   margin-bottom: 1rem;
 }
 
-.skill-item:hover #node-bar .skill-level {
+.skill-item #node-bar .skill-level {
   height: 100%;
   background-color: #68a063;
   border-radius: 4px;
 }
 
-#node-item:hover {
+#node-item {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -141,19 +141,19 @@
 }
 
 /* logo MySql */
-.skill-item:hover #mysql-skill {
+.skill-item #mysql-skill {
   font-size: 2rem;
   color: #28b1cf;
   margin-bottom: 1rem;
 }
 
-.skill-item:hover #mysql-bar .skill-level {
+.skill-item #mysql-bar .skill-level {
   height: 100%;
   background-color: #28b1cf;
   border-radius: 4px;
 }
 
-#mysql-item:hover {
+#mysql-item {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -164,19 +164,19 @@
 }
 
 /* logo server */
-.skill-item:hover #server-skill {
+.skill-item #server-skill {
   font-size: 2rem;
   color: #fff;
   margin-bottom: 1rem;
 }
 
-.skill-item:hover #server-bar .skill-level {
+.skill-item #server-bar .skill-level {
   height: 100%;
   background-color: rgb(107, 107, 107);
   border-radius: 4px;
 }
 
-#server-item:hover {
+#server-item {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -187,7 +187,7 @@
 }
 
 /* logo firebase */
-.skill-item:hover #firebase-skill {
+.skill-item #firebase-skill {
   font-size: 2rem;
   background: linear-gradient(
     to right,
@@ -200,7 +200,7 @@
   margin-bottom: 1rem;
 }
 
-.skill-item:hover #firebase-bar .skill-level {
+.skill-item #firebase-bar .skill-level {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -210,7 +210,7 @@
   border-radius: 4px;
 }
 
-#firebase-item:hover {
+#firebase-item {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -228,19 +228,19 @@
 }
 
 /* logo git */
-.skill-item:hover #git-skill {
+.skill-item #git-skill {
   font-size: 2rem;
   color: #f34f29;
   margin-bottom: 1rem;
 }
 
-.skill-item:hover #git-bar .skill-level {
+.skill-item #git-bar .skill-level {
   height: 100%;
   background-color: #f34f29;
   border-radius: 4px;
 }
 
-#git-item:hover {
+#git-item {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -251,11 +251,11 @@
 }
 
 /* logo figma */
-#figma-skill:hover i {
+#figma-skill i {
   opacity: 0;
 }
 
-#figma-skill:hover::after {
+#figma-skill::after {
   content: "";
   background-image: url("../img/figma.png");
   background-size: cover;
@@ -268,13 +268,13 @@
   transform: translateY(-110px) translateX(-5px);
 }
 
-.skill-item:hover #figma-bar .skill-level {
+.skill-item #figma-bar .skill-level {
   height: 100%;
   background-color: #2e434b;
   border-radius: 4px;
 }
 
-#figma-skill:hover {
+#figma-skill {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -285,19 +285,19 @@
 }
 
 /* logo responsive */
-.skill-item:hover #respon-skill {
+.skill-item #respon-skill {
   font-size: 2rem;
   color: #fff;
   margin-bottom: 1rem;
 }
 
-.skill-item:hover #respon-bar .skill-level {
+.skill-item #respon-bar .skill-level {
   height: 100%;
   background-color: rgb(107, 107, 107);
   border-radius: 4px;
 }
 
-#respon-item:hover {
+#respon-item {
   height: 100%;
   background: linear-gradient(
     to right,
@@ -308,24 +308,42 @@
 }
 
 /* logo Performance */
-.skill-item:hover #forma-skill {
+.skill-item #forma-skill {
   font-size: 2rem;
-  color: #ec4015;
+  background: linear-gradient(
+    to right,
+    rgba(255, 202, 40, 1) 0%,
+    rgb(255, 0, 0) 60%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* warna teks transparan */
+  display: inline-block; /* latar belakang hanya terlihat di teks */
   margin-bottom: 1rem;
 }
 
-.skill-item:hover #forma-bar .skill-level {
-  height: 100%;
-  background-color: #ec4015;
-  border-radius: 4px;
-}
-
-#forma-item:hover {
+.skill-item #forma-bar .skill-level {
   height: 100%;
   background: linear-gradient(
     to right,
-    rgba(236, 64, 21, 1) 0%,
-    rgba(236, 64, 21, 0) 8%
+    rgba(255, 202, 40, 1) 0%,
+    rgba(255, 61, 0, 1) 50%
   );
-  border: 1px solid #ec4015;
+  border-radius: 4px;
+}
+
+#forma-item {
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 202, 40, 1) 0%,
+    rgba(255, 61, 0, 1) 3%,
+    rgba(255, 61, 0, 0) 10%
+  );
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgba(255, 202, 40, 1) 0%,
+    rgba(255, 61, 0, 1) 50%
+  );
+  border-image-slice: 30;
 }
