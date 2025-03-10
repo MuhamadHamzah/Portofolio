@@ -354,9 +354,8 @@ img {
 }
 
 .welcome .style {
-  background: linear-gradient(to right, #007bff, #00d4ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
+  -webkit-text-stroke: 1px #00d4ff;
 }
 
 .headline {
