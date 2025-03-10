@@ -33,7 +33,7 @@
 
 #css-skill:hover::after {
   content: "";
-  background-image: url("/app/img/css.png");
+  background-image: url("../img/css.png");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -67,7 +67,7 @@
 
 #js-skill:hover::after {
   content: "";
-  background-image: url("/app/img/js.png");
+  background-image: url("../img/js.png");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -257,7 +257,7 @@
 
 #figma-skill:hover::after {
   content: "";
-  background-image: url("/app/img/figma.png");
+  background-image: url("../img/figma.png");
   background-size: cover;
   background-position: center;
   position: absolute;
