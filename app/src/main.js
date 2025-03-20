@@ -78,6 +78,41 @@ navLinks.forEach((link) => {
   });
 });
 
+// Project Filtering
+projectFilters.forEach((filter) => {
+  filter.addEventListener("click", () => {
+    // Update active filter
+    projectFilters.forEach((btn) => btn.classList.remove("active"));
+    filter.classList.add("active");
+
+    const category = filter.getAttribute("data-filter");
+
+    // Filter projects
+    projectItems.forEach((item) => {
+      const itemCategory = item.getAttribute("data-category");
+
+      if (category === "all" || category === itemCategory) {
+        gsap.to(item, {
+          duration: 0.4,
+          opacity: 1,
+          y: 0,
+          scale: 1,
+          ease: "power1.out",
+          clearProps: "all",
+        });
+      } else {
+        gsap.to(item, {
+          duration: 0.4,
+          opacity: 0,
+          y: 20,
+          scale: 0.95,
+          ease: "power1.out",
+        });
+      }
+    });
+  });
+});
+
 // Contact Form Submission
 // chat bot telegram
 
