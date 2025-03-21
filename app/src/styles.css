@@ -541,13 +541,6 @@ img {
   margin-bottom: 1rem;
 }
 
-.skill-bar {
-  height: 8px;
-  background-color: #e0e0e0;
-  border-radius: 4px;
-  overflow: hidden;
-}
-
 .skill-level {
   height: 100%;
   background-color: var(--primary-color);
